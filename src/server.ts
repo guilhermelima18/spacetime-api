@@ -12,7 +12,7 @@ app.register(cors, {
   origin: true,
 })
 
-app.register(jwt, {
+app.register(jwt as any, {
   secret: 'spacetime',
 })
 
